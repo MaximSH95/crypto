@@ -57,10 +57,8 @@ ul, li {
     padding-left: 40px;
 }
 
-.header__nav-item>a {
+.header__nav-item > a {
     text-decoration: none;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
     font-weight: 400;
     color: #FFFFFF
 }
@@ -73,8 +71,6 @@ ul, li {
     position: relative;
     display: flex;
     margin-right: 20px;
-    font-family: "Raleway", sans-serif;
-    font-size: 16px;
     font-weight: 400;
 }
 
@@ -123,7 +119,172 @@ ul, li {
     border-radius: 7px;
     background-color: #0FAE96;
     cursor: pointer;
-    font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 400;
+    color: #FFFFFF;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.banner__inner {
+    margin: 0 auto;
+}
+
+.inner__text {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.info > p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #B6B6B6;
+    line-height: 160%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.button__start {
+    width: 190px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    background-color: #0FAE96;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.trend__text {
+    padding-top: 135px;
+    font-weight: 600;
+}
+
+.currency-card {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+
+.currencies {
+    width: 300px;
+    height: 190px;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 13px;
+    background-color: #1D1429;
+}
+
+.val__item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 20px;
+}
+
+/*.val__icon {*/
+/*    background-color: #B6B6B6;*/
+/*    padding: 4px 6px;*/
+/*    border-radius: 3px;*/
+/*}*/
+.val__text-ustd {
+    margin: 0 15px;
+}
+
+.btc__text {
+    background-color: #B6B6B6;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weigth: 600;
+    border-radius: 3px;
+    padding: 4px 6px;
+}
+
+.eth__text {
+    background-color: #B6B6B6;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weigth: 600;
+    border-radius: 3px;
+    padding: 4px 6px;
+}
+
+    .bnb__text {
+    background-color: #B6B6B6;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weigth: 600;
+    border-radius: 3px;
+    padding: 4px 6px;
+}
+
+.ustd__text {
+    background-color: #B6B6B6;
+    color: #000000;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weigth: 600;
+    border-radius: 3px;
+    padding: 4px 6px;
+}
+
+
+.val__vector {
+    padding-left: 40px;
+}
+
+
+.currencies__info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.currencies__price {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.currencies__graph {
+    grid-row: span 2;
+}
+
+.currencies__procent {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
 }
