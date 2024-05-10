@@ -11,7 +11,17 @@ body {
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 400;
-    color: #FFFFFF
+    background-image: url(../img/background.webp);
+    background-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #0FAE96;
+}
+
+.is-text-center {
+   text-align: center;
 }
 
 .wrapper {
@@ -33,10 +43,6 @@ ul, li {
     align-items: center;
     justify-content: center;
     padding-top: 20px;
-}
-
-.header__logo {
-    /*padding-left: 92px;*/
 }
 
 .logo {
@@ -145,7 +151,6 @@ ul, li {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
     margin: 0 auto;
     padding-top: 20px;
 }
@@ -195,7 +200,7 @@ ul, li {
     padding: 20px;
     border: 1px solid rgba(255, 255, 255, 0.05);
     border-radius: 13px;
-    background-color: #1D1429;
+    background-color: rgba(225, 225, 225, 0.1);
 }
 
 .val__item {
@@ -206,64 +211,24 @@ ul, li {
     padding-bottom: 20px;
 }
 
-/*.val__icon {*/
-/*    background-color: #B6B6B6;*/
-/*    padding: 4px 6px;*/
-/*    border-radius: 3px;*/
-/*}*/
-.val__text-ustd {
+.val__text.is-usdt {
     margin: 0 15px;
 }
 
-.btc__text {
+.currencies__name {
     background-color: #B6B6B6;
     color: #000000;
     text-align: center;
     text-transform: uppercase;
     font-size: 10px;
-    font-weigth: 600;
+    font-weight: 600;
     border-radius: 3px;
     padding: 4px 6px;
 }
-
-.eth__text {
-    background-color: #B6B6B6;
-    color: #000000;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weigth: 600;
-    border-radius: 3px;
-    padding: 4px 6px;
-}
-
-    .bnb__text {
-    background-color: #B6B6B6;
-    color: #000000;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weigth: 600;
-    border-radius: 3px;
-    padding: 4px 6px;
-}
-
-.ustd__text {
-    background-color: #B6B6B6;
-    color: #000000;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 10px;
-    font-weigth: 600;
-    border-radius: 3px;
-    padding: 4px 6px;
-}
-
 
 .val__vector {
     padding-left: 40px;
 }
-
 
 .currencies__info {
     display: grid;
@@ -287,4 +252,232 @@ ul, li {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     font-weight: 500;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 200px;
+}
+
+.services__title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.description {
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #B6B6B6;
+}
+
+.services__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 70px;
+}
+
+.services__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 300px;
+    height: 350px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 13px;
+    background-color: rgba(225, 225, 225, 0.1);
+    padding: 30px;
+}
+
+.services__text {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.description.is-small {
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 130px;
+}
+
+.offer__inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__title {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.offer__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer__button {
+    width: 205px;
+    height: 55px;
+    border: none;
+    border-radius: 7px;
+    background-color: #0FAE96;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.start__banner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+
+.start_inner {
+    width: 375px;
+}
+
+.start__title {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.start__button {
+    width: 190px;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    background-color: #0FAE96;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+
+.start__info {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 25px;
+}
+
+.start__item {
+    display: flex;
+    width: 535px;
+    height: 130px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 13px;
+    background-color: rgba(225, 225, 225, 0.1);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.account__item {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.account__title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.account__item>p {
+    padding-top: 10px;
+}
+
+.news__banner {
+    padding-top: 200px;
+}
+
+.news__title {
+    text-align: center;
+}
+
+.news__card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-top: 60px;
+    grid-row-gap: 45px;
+    grid-column-gap: 25px;
+    margin-bottom: 60px;
+}
+
+.news__preview {
+    width: 620px;
+    height: 390px;
+    grid-column: span 2;
+    background-image: url(../img/news-ban.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.preview_title {
+    font-size: 36px;
+    padding-top: 220px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.crypto__reference {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #B6B6B6;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.07);
+    padding: 4px 8px;
+}
+
+.crypto__reference.is-large {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #B6B6B6;
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.07);
+    margin-left: 30px;
+    padding: 4px 8px;
+}
+
+.news__item {
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 13px;
+    background-color: rgba(225, 225, 225, 0.1);
+}
+
+.news__info {
+    margin: 20px;
+}
+
+.news__text {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.news__description {
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #B6B6B6;
 }
