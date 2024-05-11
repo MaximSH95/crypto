@@ -48,7 +48,6 @@ ul, li {
 .logo {
     display: flex;
     align-items: center;
-    justify-content: center;
     cursor: pointer;
 }
 
@@ -296,6 +295,10 @@ ul, li {
     padding: 30px;
 }
 
+.services__card>a {
+    padding-top: 40px;
+}
+
 .services__text {
     font-size: 20px;
     font-weight: 600;
@@ -304,7 +307,6 @@ ul, li {
 }
 
 .description.is-small {
-    padding-bottom: 40px;
     font-size: 16px;
 }
 
@@ -480,4 +482,43 @@ ul, li {
     font-size: 14px;
     font-weight: 400;
     color: #B6B6B6;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 225px;
+}
+
+.footer__info {
+    padding-top: 60px;
+    margin-bottom: 65px;
+}
+
+.footer__sociales {
+    padding-top: 65px;
+    padding-bottom: 30px;
+}
+
+.footer__sociales>a:nth-child(n+2) {
+   padding-left: 15px;
+}
+
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 140px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__item>p {
+    margin: 0;
 }
