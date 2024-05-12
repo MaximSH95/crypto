@@ -345,6 +345,82 @@ ul, li {
     color: #FFFFFF;
 }
 
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+caption {
+    text-align: left;
+    padding-top: 170px;
+}
+
+.caption__menu {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.caption__item {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #B6B6B6;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 3px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.caption__item:nth-child(n+2) {
+    margin-left: 10px;
+}
+
+.caption__input {
+    color: #B6B6B6;
+    background-color: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 3px;
+    background-image: url("../img/placeholder-vct.svg");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 280px;
+    height: 40px;
+    padding: 10px 0 10px 45px;
+    margin-left: 240px;
+}
+
+.caption__input:focus {
+    content-visibility: none;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th,
+td {
+    padding: 20px;
+}
+
+
 .start__banner {
     display: flex;
     justify-content: space-between;
